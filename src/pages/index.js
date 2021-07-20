@@ -1,7 +1,6 @@
 import * as React from "react";
-import Logo from "../components/Logo";
 import "../styles/global.css";
-import { Hero } from "./hero";
+import { Hero } from "../components/hero";
 
 const IndexPage = () => {
   return (
