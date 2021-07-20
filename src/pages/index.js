@@ -18,6 +18,13 @@ const paragraphStyles = {
   marginBottom: 48,
 }
 
+const linkStyle = {
+  color: "#8954A8",
+  fontWeight: "bold",
+  fontSize: 16,
+  verticalAlign: "5%",
+}
+
 
 const IndexPage = () => {
   return (
@@ -54,6 +61,13 @@ const IndexPage = () => {
       Leave your email below to join the waitlist
       </ul>
       </p>
+      <br/>
+      <a
+        style={linkStyle}
+        href={"/privacypolicy"}
+      >
+        {"read our privacy policy here"}
+      </a>
     </main>
   )
 }
