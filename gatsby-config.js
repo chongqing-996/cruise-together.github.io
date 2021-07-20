@@ -4,4 +4,5 @@ module.exports = {
     title: "crooz-landing-page",
   },
   plugins: ["gatsby-plugin-emotion"],
+  pathPrefix: "/crooz-landing-page",
 };
