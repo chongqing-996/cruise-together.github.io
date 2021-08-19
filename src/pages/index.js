@@ -25,7 +25,7 @@ const IndexPage = () => {
         </Hero>
         <div className="flex flex-col items-center">
           <div className="max-w-2xl">
-            <div className="container py-16 px-8 text-lg text-gray-100 bg-gray-800">
+            <div className="container py-32 px-8 text-lg text-gray-100 bg-gray-800">
               <h3 className="text-3xl mb-8">
                 Keep up with your mates from the comfort of your own car
               </h3>
@@ -37,40 +37,39 @@ const IndexPage = () => {
               </p>
             </div>
           </div>
-          <div className="w-screen bg-green-600 flex flex-col items-center">
-            <div className="py-8 px-8 text-lg text-gray-100 max-w-2xl">
+          <div className="w-screen bg-blue-200 flex flex-col items-center">
+            <div className="py-16 px-8 text-lg text-gray-800 max-w-2xl">
               <h3 className="text-3xl my-8">
                 📞 Chat with the group via "Walkie-Talkie"
               </h3>
-              <p className="my-2">
-                Banter is just a tap away. Touch anywhere on the screen to
-                toggle your microphone on. It's just like a walkie-talkie.
-                Remember those? *Over*
+              <p className="mb-16">
+                Banter is just a tap away. It's just one touch to toggle your
+                microphone on. It's just like a walkie-talkie. Remember those?
+                *Over*
               </p>
               <h3 className="text-3xl my-8">🎶 Your audio, your way</h3>
               <p className="my-2">
                 We won't hijack your audio. When there's nothing to say, your
                 favourite jams will play loud and clear.
               </p>
-              <p className="my-2">
+              <p className="mb-16">
                 And since you're muted by default, no-one will hear you singing
-                along to that one track. You can't help yourself, can you?
+                along to that one track. Coz you just can't help yourself, can
+                you?
               </p>
               <h3 className="text-3xl my-8">🧭 Stay on track</h3>
-              <p className="my-2">
+              <p className="mb-16">
                 Keep track of where everyone is on a live, interactive map. Did
                 your directionally-challenged friend take a wrong turn? Activate
                 your walkie-talkie and let them know, or...
               </p>
               <h3 className="text-3xl my-8">👀 React in real-time</h3>
-              <p className="my-2">
+              <p className="mb-4">
                 We've got social features to keep the app live and fun. Choose
                 from a range of soundbites, emojis or reaccs that get instantly
                 broadcast to everyone else in your room.
               </p>
-              <p className="my-2">
-                😂😂😂 When your mate misses the freeway exit.
-              </p>
+              <p className="my-2">😂 When your mate misses the freeway exit.</p>
             </div>
           </div>
           <div className="max-w-2xl">
@@ -92,7 +91,7 @@ const IndexPage = () => {
               <div className="flex justify-center">
                 <a
                   href="https://app.crooz.in"
-                  className="text-gray-300 hover:text-green-400"
+                  className="text-gray-300 hover:text-blue-400"
                 >
                   Tech Demo
                 </a>
@@ -100,7 +99,7 @@ const IndexPage = () => {
             </div>
           </div>
           <a
-            className="mb-4 text-white hover:text-green-400"
+            className="mb-4 text-white hover:text-blue-400"
             href={"/privacypolicy"}
           >
             read our privacy policy here
